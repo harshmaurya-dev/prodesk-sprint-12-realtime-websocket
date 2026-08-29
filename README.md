@@ -1,2 +1,20 @@
-# prodesk-sprint-12-realtime-websocket
-Real-time full-stack chat app with React, Node.js, Socket.io, WebSockets, typing indicators, and room-based communication. 🚀
+# Prodesk Sprint 12 — Real-Time WebSocket
+
+Real-time full-stack chat application built with React, Vite, Node.js, Express, and Socket.IO.
+
+## Features
+- Persistent WebSocket connection
+- Real-time bidirectional messaging
+- Session identification
+- Typing indicators
+- Two isolated rooms
+- Room-based routing
+- Join/leave events
+
+## Local setup
+```bash
+cd server && npm install && npm run dev
+cd client && npm install && npm run dev
+```
+
+Deploy `server` to Render and `client` to Vercel.
