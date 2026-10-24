@@ -1,8 +1,10 @@
 {
-  "name":"prodesk-sprint-12-realtime-websocket",
-  "private":true,
-  "scripts":{
-    "server":"npm run dev --prefix server",
-    "client":"npm run dev --prefix client"
+  "name": "prodesk-sprint-12-realtime-websocket",
+  "private": true,
+  "scripts": {
+    "server": "npm run dev --prefix server",
+    "server:start": "npm start --prefix server",
+    "client": "npm run dev --prefix client",
+    "client:build": "npm run build --prefix client"
   }
 }
