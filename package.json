@@ -2,6 +2,8 @@
   "name": "prodesk-sprint-12-realtime-websocket",
   "private": true,
   "scripts": {
+    "start": "npm start --prefix server",
+    "postinstall": "npm install --prefix server",
     "server": "npm run dev --prefix server",
     "server:start": "npm start --prefix server",
     "client": "npm run dev --prefix client",
