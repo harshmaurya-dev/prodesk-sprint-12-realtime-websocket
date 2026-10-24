@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: prodesk-sprint-12-realtime-websocket
+    runtime: node
+    rootDir: server
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
+      - key: CLIENT_URL
+        sync: false
